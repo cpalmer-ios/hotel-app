@@ -1,0 +1,26 @@
+{
+  "name": "youtube2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "client": "cd client && npm run start",
+    "server": "cd api && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpalmer-ios/hotel-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpalmer-ios/hotel-app/issues"
+  },
+  "homepage": "https://github.com/cpalmer-ios/hotel-app#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
