@@ -2,7 +2,7 @@
 
 ## Mongo Database
 
-The database is using Mongo DB. The Schema Types can be found in the api/models folder. The connection string is setup to work locally so be sure to install mongo on your local machine. 
+The database is using Mongo DB. The Schema Types can be found in the api/models folder. The connection string is setup to work locally so be sure to install mongo on your local machine. The connection string can be found in the .env.example file. Just copy the values over to an .env file before running the API (once mongo is installed).
 
 [Vist This Link](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x-tarball/)
 
