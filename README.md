@@ -120,9 +120,28 @@ This application uses an AuthContext and a SearchContext to manage state.
 
 ##### Custom Hooks
 
-This application uses a custom hook (useFetch) which can be found in the client/hooks folder
+This application uses a custom hook (useFetch) which can be found in the client/hooks folder.
 
 ##### Pages
 
 The pages for this application can be found in the pages folder.
 
+### Running the Client App
+
+To run the client app, type 
+
+```terminal
+npm run start
+```
+
+from the /client folder
+
+### Running both the API and the Client
+
+To run both the Client and API type 
+
+```terminal
+npm run start
+```
+
+from the root of the project
